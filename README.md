@@ -1,40 +1,40 @@
+# ACI Controller Configuration using Direct API
 
+This program configures the ACI Controller using the Direct API. There are three stages/menu options in this program:
 
-# Konfigurasi ACI Controller menggunakan Direct API
+1. **Counting Existing Tenants and Application Profiles**: Counts the number of existing Tenants and Application Profiles.
+2. **Configuring Tenant and Application Profiles**: Adds 1 Tenant (Normativitas) and 3 Application Profiles.
+3. **Displaying Member Information**: Shows the names and student IDs of group members, and removes the configurations that were added.
 
-Program ini melakukan konfigurasi pada ACI Controller menggunakan Direct API. Terdapat tiga tahapan/menu dalam program ini:
+## Requirements
 
-1. **Pencatatan Jumlah Tenant dan Application Profile**: Menghitung jumlah Tenant dan Application Profile yang sudah ada.
-2. **Konfigurasi Tenant dan Application Profile**: Menambahkan 1 Tenant (Normativitas) dan 3 Application Profile.
-3. **Menampilkan Informasi Anggota**: Menampilkan nama dan NIM anggota kelompok, serta menghapus konfigurasi yang telah ditambahkan.
-
-## Persyaratan
-
-Sebelum menjalankan program, pastikan Anda telah menginstal dependensi yang diperlukan. Gunakan perintah berikut:
+Before running the program, ensure that you have installed the necessary dependencies. Use the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Cara Menjalankan Program
+## How to Run the Program
 
-Setelah menginstal dependensi, Anda dapat menjalankan program dengan perintah berikut:
+After installing the dependencies, you can run the program with the following command:
 
 ```bash
 python aci-controller-direct-api.py
 ```
 
-## Struktur Nama
+## Naming Structure
 
 - **Tenant**:  
   - Normativitas  
 
-- **Application Profile**:  
+- **Application Profiles**:  
   - Kritis  
   - Kreatif  
   - Inovatif  
 
-### Atribut yang dikonfigurasi
+### Configured Attributes
 
 - `descr`
 - `annotation`
+
+Feel free to customize the "Contact" section with your own information.
