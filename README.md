@@ -34,7 +34,7 @@ python aci-controller-direct-api.py
   - Kreatif  
   - Inovatif  
 
-### Atribut yang Harus Dikonfigurasi
+### Atribut yang dikonfigurasi
 
 - `descr`
 - `annotation`
