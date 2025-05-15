@@ -38,5 +38,3 @@ python aci-controller-direct-api.py
 
 - `descr`
 - `annotation`
-
-Silakan sesuaikan bagian "Kontak" dengan informasi Anda sendiri.
